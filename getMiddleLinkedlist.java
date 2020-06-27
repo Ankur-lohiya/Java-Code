@@ -22,6 +22,7 @@ class LinkedList{
 		}
 	}
 	static public int middleDisplay(Node head){
+		if(head==null) return -1;
 		Node slow=head;
 		Node fast=head;
 		while(fast!=null && fast.next!=null){
