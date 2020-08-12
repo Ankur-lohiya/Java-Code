@@ -14,18 +14,10 @@ class PriorityQueue{
 			ncount++;
 		}
 	}
-	public static int delete(){
-		int item=a[0];
-		for(int i=0;i<ncount;i++){
-			a[i]=a[i+1];
-		}
-		ncount--;
-		return item;
-	}
 	public static void print(){
 		int i=0;
 		while(i<ncount){
-			System.out.print(a[i]+" ");
+			System.out.print(a[i]);
 			i++;
 		}
 	}
@@ -36,8 +28,6 @@ class PriorityQueue{
 			insert(sc.nextInt());
 			n--;
 		}
-		System.out.println(delete());
-		System.out.println(delete());
 		print();
 	}
 }
