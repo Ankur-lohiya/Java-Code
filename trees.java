@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 class trees{
   static void inOrder(Node root){
